@@ -1,0 +1,14 @@
+PUT http://localhost:3001/api/notes/63a6706f5bf61013d8a102ad
+Content-Type: application/json
+
+{
+    "content": "Vamos mejorando",
+    "important": true
+}
+
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+}
